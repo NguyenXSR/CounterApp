@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    247deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 52, 91, 0.5943627450980392) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+  font-family: roboto, sans-serif;
+}
+h1 {
+  color: lightsalmon;
+}
+#value {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.btn {
+  /*   background: transparent; */
+  padding: 5px 20px;
+  margin: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-decrease:hover {
+  background: lawngreen;
+  color: red;
+}
+.btn-reset:hover {
+  background: steelblue;
+  color: white;
+}
+.btn-increase:hover {
+  background: peru;
+  color: yellow;
+}
